@@ -50,7 +50,7 @@ urls <- nest_join(geos, dps, by = character()) %>%
 
 ######################################## CWS METADATA ##########################----
 moe <- dcws::cws_max_moe %>%
-  filter(year == max(year)) %>%
+  filter(year == cws_yr) %>%
   select(Town = name, `Maximum MoE on above estimates` = moe)
 
 

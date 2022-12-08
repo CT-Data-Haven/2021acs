@@ -22,7 +22,7 @@ fetch <- purrr::map(basic_table_nums, multi_geo_acs, year = yr,
            pumas = pumas,
            neighborhoods = nhood_lookup,
            tracts = "all", 
-           msa = TRUE, 
+           # msa = TRUE, # msa label changed in the api
            us = TRUE,
            sleep = 1) %>%
   purrr::modify_at("median_income", mutate, 
