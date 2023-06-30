@@ -56,3 +56,8 @@ or rebuild just once piece of it, e.g. `make distro_nhood`.
 
 You can supply the years to `make`; calling `make testvars` will verify
 what years are being used by sourcing just `utils/pkgs_utils.R`.
+
+<figure>
+<img src="make.png" alt="makefile" />
+<figcaption aria-hidden="true">makefile</figcaption>
+</figure>

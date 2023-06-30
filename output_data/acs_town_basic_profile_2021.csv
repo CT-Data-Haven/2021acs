@@ -10,8 +10,10 @@ total_pop,3_county,New London County,2021,total_pop,269131,0,NA,NA
 total_pop,3_county,Tolland County,2021,total_pop,150120,0,NA,NA
 total_pop,3_county,Windham County,2021,total_pop,116503,0,NA,NA
 total_pop,4_region,6 wealthiest Fairfield County,2021,total_pop,123105,98,NA,NA
+total_pop,4_region,Capitol Region COG,2021,total_pop,975609,328,NA,NA
 total_pop,4_region,Eastern cities,2021,total_pop,130771,149,NA,NA
 total_pop,4_region,Greater Bridgeport,2021,total_pop,325985,85,NA,NA
+total_pop,4_region,Greater Bridgeport COG,2021,total_pop,325985,85,NA,NA
 total_pop,4_region,Greater Danbury,2021,total_pop,267618,342,NA,NA
 total_pop,4_region,Greater Danbury other towns,2021,total_pop,153347,338,NA,NA
 total_pop,4_region,Greater Hartford,2021,total_pop,975609,328,NA,NA
@@ -20,13 +22,25 @@ total_pop,4_region,Greater Norwalk,2021,total_pop,167388,92,NA,NA
 total_pop,4_region,Greater Norwalk other towns,2021,total_pop,76567,77,NA,NA
 total_pop,4_region,Greater Waterbury,2021,total_pop,339212,514,NA,NA
 total_pop,4_region,Hartford Foundation,2021,total_pop,759548,315,NA,NA
-total_pop,4_region,Hartford Foundation other towns,2021,total_pop,497561,301,NA,NA
+total_pop,4_region,Hartford Foundation other towns,2021,total_pop,637986,307,NA,NA
 total_pop,4_region,Hartford Inner Ring,2021,total_pop,426279,132,NA,NA
 total_pop,4_region,Hartford Outer Ring,2021,total_pop,353746,290,NA,NA
+total_pop,4_region,Lower Connecticut River Valley COG,2021,total_pop,174580,378,NA,NA
 total_pop,4_region,Lower Naugatuck Valley,2021,total_pop,139364,91,NA,NA
+total_pop,4_region,Naugatuck Valley COG,2021,total_pop,450204,150,NA,NA
 total_pop,4_region,New Haven Inner Ring,2021,total_pop,144732,84,NA,NA
 total_pop,4_region,New Haven Outer Ring,2021,total_pop,186882,95,NA,NA
+total_pop,4_region,North Central DMHAS,2021,total_pop,1008086,330,NA,NA
+total_pop,4_region,Northeastern COG,2021,total_pop,95509,506,NA,NA
+total_pop,4_region,Northwest Hills COG,2021,total_pop,112277,598,NA,NA
 total_pop,4_region,Other New Haven County cities,2021,total_pop,105218,97,NA,NA
+total_pop,4_region,South Central COG,2021,total_pop,570706,165,NA,NA
+total_pop,4_region,South Central DMHAS,2021,total_pop,824281,210,NA,NA
+total_pop,4_region,Southeastern COG,2021,total_pop,281045,437,NA,NA
+total_pop,4_region,Southeastern DMHAS,2021,total_pop,436038,763,NA,NA
+total_pop,4_region,Southwestern DMHAS,2021,total_pop,713133,162,NA,NA
+total_pop,4_region,Western COG,2021,total_pop,619415,283,NA,NA
+total_pop,4_region,Western DMHAS,2021,total_pop,623792,657,NA,NA
 total_pop,6_town,Bethel,2021,total_pop,20287,35,NA,NA
 total_pop,6_town,Bridgeport,2021,total_pop,148529,44,NA,NA
 total_pop,6_town,Brookfield,2021,total_pop,17428,22,NA,NA
@@ -229,12 +243,18 @@ age,3_county,Windham County,2021,ages65plus,19408,814,0.17,0.007
 age,4_region,6 wealthiest Fairfield County,2021,total_pop,123105,2463,NA,NA
 age,4_region,6 wealthiest Fairfield County,2021,ages00_17,34895,1321,0.28,0.009
 age,4_region,6 wealthiest Fairfield County,2021,ages65plus,19613,981,0.16,0.007
+age,4_region,Capitol Region COG,2021,total_pop,975609,7574,NA,NA
+age,4_region,Capitol Region COG,2021,ages00_17,200053,3485,0.21,0.003
+age,4_region,Capitol Region COG,2021,ages65plus,164598,2915,0.17,0.003
 age,4_region,Eastern cities,2021,total_pop,130771,2848,NA,NA
 age,4_region,Eastern cities,2021,ages00_17,24637,1273,0.19,0.009
 age,4_region,Eastern cities,2021,ages65plus,20435,1103,0.16,0.008
 age,4_region,Greater Bridgeport,2021,total_pop,325985,4304,NA,NA
 age,4_region,Greater Bridgeport,2021,ages00_17,74671,2059,0.23,0.006
 age,4_region,Greater Bridgeport,2021,ages65plus,48595,1567,0.15,0.004
+age,4_region,Greater Bridgeport COG,2021,total_pop,325985,4304,NA,NA
+age,4_region,Greater Bridgeport COG,2021,ages00_17,74671,2059,0.23,0.006
+age,4_region,Greater Bridgeport COG,2021,ages65plus,48595,1567,0.15,0.004
 age,4_region,Greater Danbury,2021,total_pop,267618,3979,NA,NA
 age,4_region,Greater Danbury,2021,ages00_17,56961,1971,0.21,0.007
 age,4_region,Greater Danbury,2021,ages65plus,48910,1628,0.18,0.005
@@ -259,27 +279,63 @@ age,4_region,Greater Waterbury,2021,ages65plus,63805,1920,0.19,0.005
 age,4_region,Hartford Foundation,2021,total_pop,759548,6624,NA,NA
 age,4_region,Hartford Foundation,2021,ages00_17,157954,3087,0.21,0.004
 age,4_region,Hartford Foundation,2021,ages65plus,128946,2533,0.17,0.003
-age,4_region,Hartford Foundation other towns,2021,total_pop,497561,5253,NA,NA
-age,4_region,Hartford Foundation other towns,2021,ages00_17,101131,2444,0.2,0.004
-age,4_region,Hartford Foundation other towns,2021,ages65plus,94364,2148,0.19,0.004
+age,4_region,Hartford Foundation other towns,2021,total_pop,637986,6075,NA,NA
+age,4_region,Hartford Foundation other towns,2021,ages00_17,129604,2829,0.2,0.004
+age,4_region,Hartford Foundation other towns,2021,ages65plus,114989,2367,0.18,0.003
 age,4_region,Hartford Inner Ring,2021,total_pop,426279,5078,NA,NA
 age,4_region,Hartford Inner Ring,2021,ages00_17,83151,2321,0.2,0.005
 age,4_region,Hartford Inner Ring,2021,ages65plus,76816,1967,0.18,0.004
 age,4_region,Hartford Outer Ring,2021,total_pop,353746,4460,NA,NA
 age,4_region,Hartford Outer Ring,2021,ages00_17,71046,2003,0.2,0.005
 age,4_region,Hartford Outer Ring,2021,ages65plus,63947,1806,0.18,0.005
+age,4_region,Lower Connecticut River Valley COG,2021,total_pop,174580,3038,NA,NA
+age,4_region,Lower Connecticut River Valley COG,2021,ages00_17,30747,1311,0.18,0.007
+age,4_region,Lower Connecticut River Valley COG,2021,ages65plus,36218,1326,0.21,0.007
 age,4_region,Lower Naugatuck Valley,2021,total_pop,139364,3295,NA,NA
 age,4_region,Lower Naugatuck Valley,2021,ages00_17,26234,1503,0.19,0.01
 age,4_region,Lower Naugatuck Valley,2021,ages65plus,26177,1372,0.19,0.009
+age,4_region,Naugatuck Valley COG,2021,total_pop,450204,5548,NA,NA
+age,4_region,Naugatuck Valley COG,2021,ages00_17,91889,2638,0.2,0.005
+age,4_region,Naugatuck Valley COG,2021,ages65plus,83063,2276,0.18,0.005
 age,4_region,New Haven Inner Ring,2021,total_pop,144732,3288,NA,NA
 age,4_region,New Haven Inner Ring,2021,ages00_17,27588,1523,0.19,0.01
 age,4_region,New Haven Inner Ring,2021,ages65plus,23046,1140,0.16,0.007
 age,4_region,New Haven Outer Ring,2021,total_pop,186882,3239,NA,NA
 age,4_region,New Haven Outer Ring,2021,ages00_17,35346,1445,0.19,0.007
 age,4_region,New Haven Outer Ring,2021,ages65plus,41718,1464,0.22,0.007
+age,4_region,North Central DMHAS,2021,total_pop,1008086,7669,NA,NA
+age,4_region,North Central DMHAS,2021,ages00_17,210882,3602,0.21,0.003
+age,4_region,North Central DMHAS,2021,ages65plus,171214,2950,0.17,0.003
+age,4_region,Northeastern COG,2021,total_pop,95509,2252,NA,NA
+age,4_region,Northeastern COG,2021,ages00_17,19096,1074,0.2,0.01
+age,4_region,Northeastern COG,2021,ages65plus,16693,872,0.17,0.008
+age,4_region,Northwest Hills COG,2021,total_pop,112277,2317,NA,NA
+age,4_region,Northwest Hills COG,2021,ages00_17,20701,1010,0.18,0.008
+age,4_region,Northwest Hills COG,2021,ages65plus,24748,1043,0.22,0.008
 age,4_region,Other New Haven County cities,2021,total_pop,105218,2687,NA,NA
 age,4_region,Other New Haven County cities,2021,ages00_17,20008,1228,0.19,0.011
 age,4_region,Other New Haven County cities,2021,ages65plus,18489,1011,0.18,0.008
+age,4_region,South Central COG,2021,total_pop,570706,6142,NA,NA
+age,4_region,South Central COG,2021,ages00_17,112873,2820,0.2,0.004
+age,4_region,South Central COG,2021,ages65plus,97328,2321,0.17,0.004
+age,4_region,South Central DMHAS,2021,total_pop,824281,7310,NA,NA
+age,4_region,South Central DMHAS,2021,ages00_17,157952,3303,0.19,0.004
+age,4_region,South Central DMHAS,2021,ages65plus,148766,2894,0.18,0.003
+age,4_region,Southeastern COG,2021,total_pop,281045,4050,NA,NA
+age,4_region,Southeastern COG,2021,ages00_17,54895,1900,0.2,0.006
+age,4_region,Southeastern COG,2021,ages65plus,49842,1617,0.18,0.005
+age,4_region,Southeastern DMHAS,2021,total_pop,436038,5012,NA,NA
+age,4_region,Southeastern DMHAS,2021,ages00_17,82289,2282,0.19,0.005
+age,4_region,Southeastern DMHAS,2021,ages65plus,75722,1961,0.17,0.004
+age,4_region,Southwestern DMHAS,2021,total_pop,713133,6375,NA,NA
+age,4_region,Southwestern DMHAS,2021,ages00_17,163611,3089,0.23,0.004
+age,4_region,Southwestern DMHAS,2021,ages65plus,108980,2387,0.15,0.003
+age,4_region,Western COG,2021,total_pop,619415,5999,NA,NA
+age,4_region,Western COG,2021,ages00_17,139566,2952,0.23,0.004
+age,4_region,Western COG,2021,ages65plus,99094,2315,0.16,0.003
+age,4_region,Western DMHAS,2021,total_pop,623792,6200,NA,NA
+age,4_region,Western DMHAS,2021,ages00_17,129757,2979,0.21,0.004
+age,4_region,Western DMHAS,2021,ages65plus,115497,2546,0.19,0.004
 age,6_town,Andover,2021,total_pop,2998,347,NA,NA
 age,6_town,Andover,2021,ages00_17,490,140,0.16,0.043
 age,6_town,Andover,2021,ages65plus,603,164,0.2,0.05
@@ -820,12 +876,18 @@ sex,3_county,Windham County,2021,female,58430,225,0.5,0.001
 sex,4_region,6 wealthiest Fairfield County,2021,total_pop,123105,1382,NA,NA
 sex,4_region,6 wealthiest Fairfield County,2021,male,60436,976,0.49,0.006
 sex,4_region,6 wealthiest Fairfield County,2021,female,62669,978,0.51,0.006
+sex,4_region,Capitol Region COG,2021,total_pop,975609,4254,NA,NA
+sex,4_region,Capitol Region COG,2021,male,478582,3007,0.49,0.002
+sex,4_region,Capitol Region COG,2021,female,497027,3009,0.51,0.002
 sex,4_region,Eastern cities,2021,total_pop,130771,1679,NA,NA
 sex,4_region,Eastern cities,2021,male,66315,1187,0.51,0.006
 sex,4_region,Eastern cities,2021,female,64456,1188,0.49,0.007
 sex,4_region,Greater Bridgeport,2021,total_pop,325985,2384,NA,NA
 sex,4_region,Greater Bridgeport,2021,male,158157,1685,0.49,0.004
 sex,4_region,Greater Bridgeport,2021,female,167828,1687,0.51,0.004
+sex,4_region,Greater Bridgeport COG,2021,total_pop,325985,2384,NA,NA
+sex,4_region,Greater Bridgeport COG,2021,male,158157,1685,0.49,0.004
+sex,4_region,Greater Bridgeport COG,2021,female,167828,1687,0.51,0.004
 sex,4_region,Greater Danbury,2021,total_pop,267618,2098,NA,NA
 sex,4_region,Greater Danbury,2021,male,131624,1484,0.49,0.004
 sex,4_region,Greater Danbury,2021,female,135994,1483,0.51,0.004
@@ -850,27 +912,63 @@ sex,4_region,Greater Waterbury,2021,female,170458,1807,0.5,0.004
 sex,4_region,Hartford Foundation,2021,total_pop,759548,3783,NA,NA
 sex,4_region,Hartford Foundation,2021,male,372956,2673,0.49,0.003
 sex,4_region,Hartford Foundation,2021,female,386592,2677,0.51,0.002
-sex,4_region,Hartford Foundation other towns,2021,total_pop,497561,2971,NA,NA
-sex,4_region,Hartford Foundation other towns,2021,male,245342,2098,0.49,0.003
-sex,4_region,Hartford Foundation other towns,2021,female,252219,2104,0.51,0.003
+sex,4_region,Hartford Foundation other towns,2021,total_pop,637986,3424,NA,NA
+sex,4_region,Hartford Foundation other towns,2021,male,314690,2419,0.49,0.003
+sex,4_region,Hartford Foundation other towns,2021,female,323296,2423,0.51,0.003
 sex,4_region,Hartford Inner Ring,2021,total_pop,426279,2904,NA,NA
 sex,4_region,Hartford Inner Ring,2021,male,209215,2056,0.49,0.003
 sex,4_region,Hartford Inner Ring,2021,female,217064,2051,0.51,0.003
 sex,4_region,Hartford Outer Ring,2021,total_pop,353746,2394,NA,NA
 sex,4_region,Hartford Outer Ring,2021,male,175989,1688,0.5,0.003
 sex,4_region,Hartford Outer Ring,2021,female,177757,1697,0.5,0.003
+sex,4_region,Lower Connecticut River Valley COG,2021,total_pop,174580,1595,NA,NA
+sex,4_region,Lower Connecticut River Valley COG,2021,male,85949,1132,0.49,0.005
+sex,4_region,Lower Connecticut River Valley COG,2021,female,88631,1124,0.51,0.004
 sex,4_region,Lower Naugatuck Valley,2021,total_pop,139364,1687,NA,NA
 sex,4_region,Lower Naugatuck Valley,2021,male,68317,1192,0.49,0.006
 sex,4_region,Lower Naugatuck Valley,2021,female,71047,1194,0.51,0.006
+sex,4_region,Naugatuck Valley COG,2021,total_pop,450204,2976,NA,NA
+sex,4_region,Naugatuck Valley COG,2021,male,221631,2103,0.49,0.003
+sex,4_region,Naugatuck Valley COG,2021,female,228573,2105,0.51,0.003
 sex,4_region,New Haven Inner Ring,2021,total_pop,144732,1723,NA,NA
 sex,4_region,New Haven Inner Ring,2021,male,69112,1219,0.48,0.006
 sex,4_region,New Haven Inner Ring,2021,female,75620,1217,0.52,0.006
 sex,4_region,New Haven Outer Ring,2021,total_pop,186882,1692,NA,NA
 sex,4_region,New Haven Outer Ring,2021,male,91720,1199,0.49,0.005
 sex,4_region,New Haven Outer Ring,2021,female,95162,1194,0.51,0.004
+sex,4_region,North Central DMHAS,2021,total_pop,1008086,4297,NA,NA
+sex,4_region,North Central DMHAS,2021,male,493905,3038,0.49,0.002
+sex,4_region,North Central DMHAS,2021,female,514181,3039,0.51,0.002
+sex,4_region,Northeastern COG,2021,total_pop,95509,1203,NA,NA
+sex,4_region,Northeastern COG,2021,male,47995,853,0.5,0.006
+sex,4_region,Northeastern COG,2021,female,47514,848,0.5,0.006
+sex,4_region,Northwest Hills COG,2021,total_pop,112277,1358,NA,NA
+sex,4_region,Northwest Hills COG,2021,male,57114,975,0.51,0.006
+sex,4_region,Northwest Hills COG,2021,female,55163,945,0.49,0.006
 sex,4_region,Other New Haven County cities,2021,total_pop,105218,1375,NA,NA
 sex,4_region,Other New Haven County cities,2021,male,50055,974,0.48,0.007
 sex,4_region,Other New Haven County cities,2021,female,55163,970,0.52,0.006
+sex,4_region,South Central COG,2021,total_pop,570706,3318,NA,NA
+sex,4_region,South Central COG,2021,male,273427,2350,0.48,0.003
+sex,4_region,South Central COG,2021,female,297279,2343,0.52,0.003
+sex,4_region,South Central DMHAS,2021,total_pop,824281,3915,NA,NA
+sex,4_region,South Central DMHAS,2021,male,396425,2772,0.48,0.002
+sex,4_region,South Central DMHAS,2021,female,427856,2765,0.52,0.002
+sex,4_region,Southeastern COG,2021,total_pop,281045,2254,NA,NA
+sex,4_region,Southeastern COG,2021,male,140949,1596,0.5,0.004
+sex,4_region,Southeastern COG,2021,female,140096,1591,0.5,0.004
+sex,4_region,Southeastern DMHAS,2021,total_pop,436038,2784,NA,NA
+sex,4_region,Southeastern DMHAS,2021,male,218794,1972,0.5,0.003
+sex,4_region,Southeastern DMHAS,2021,female,217244,1965,0.5,0.003
+sex,4_region,Southwestern DMHAS,2021,total_pop,713133,3629,NA,NA
+sex,4_region,Southwestern DMHAS,2021,male,348428,2563,0.49,0.003
+sex,4_region,Southwestern DMHAS,2021,female,364705,2569,0.51,0.002
+sex,4_region,Western COG,2021,total_pop,619415,3361,NA,NA
+sex,4_region,Western COG,2021,male,305056,2374,0.49,0.003
+sex,4_region,Western COG,2021,female,314359,2379,0.51,0.003
+sex,4_region,Western DMHAS,2021,total_pop,623792,3336,NA,NA
+sex,4_region,Western DMHAS,2021,male,311308,2364,0.5,0.003
+sex,4_region,Western DMHAS,2021,female,312484,2354,0.5,0.003
 sex,6_town,Andover,2021,total_pop,2998,187,NA,NA
 sex,6_town,Andover,2021,male,1472,136,0.49,0.033
 sex,6_town,Andover,2021,female,1526,129,0.51,0.029
@@ -1433,6 +1531,11 @@ race,4_region,6 wealthiest Fairfield County,2021,white,103526,1592,0.84,0.013
 race,4_region,6 wealthiest Fairfield County,2021,black,1374,335,0.01,0.003
 race,4_region,6 wealthiest Fairfield County,2021,latino,6495,967,0.05,0.008
 race,4_region,6 wealthiest Fairfield County,2021,other_race,11710,1166,0.1,0.009
+race,4_region,Capitol Region COG,2021,total_pop,975609,328,NA,NA
+race,4_region,Capitol Region COG,2021,white,599865,4610,0.61,0.005
+race,4_region,Capitol Region COG,2021,black,116929,3402,0.12,0.003
+race,4_region,Capitol Region COG,2021,latino,167112,3817,0.17,0.004
+race,4_region,Capitol Region COG,2021,other_race,91703,3579,0.09,0.004
 race,4_region,Eastern cities,2021,total_pop,130771,149,NA,NA
 race,4_region,Eastern cities,2021,white,74890,1774,0.57,0.014
 race,4_region,Eastern cities,2021,black,11004,1237,0.08,0.009
@@ -1443,6 +1546,11 @@ race,4_region,Greater Bridgeport,2021,white,158107,2809,0.49,0.009
 race,4_region,Greater Bridgeport,2021,black,61475,2492,0.19,0.008
 race,4_region,Greater Bridgeport,2021,latino,82130,2826,0.25,0.009
 race,4_region,Greater Bridgeport,2021,other_race,24273,2052,0.07,0.006
+race,4_region,Greater Bridgeport COG,2021,total_pop,325985,85,NA,NA
+race,4_region,Greater Bridgeport COG,2021,white,158107,2809,0.49,0.009
+race,4_region,Greater Bridgeport COG,2021,black,61475,2492,0.19,0.008
+race,4_region,Greater Bridgeport COG,2021,latino,82130,2826,0.25,0.009
+race,4_region,Greater Bridgeport COG,2021,other_race,24273,2052,0.07,0.006
 race,4_region,Greater Danbury,2021,total_pop,267618,342,NA,NA
 race,4_region,Greater Danbury,2021,white,196663,2834,0.73,0.011
 race,4_region,Greater Danbury,2021,black,11039,1513,0.04,0.006
@@ -1483,11 +1591,11 @@ race,4_region,Hartford Foundation,2021,white,451211,4050,0.59,0.005
 race,4_region,Hartford Foundation,2021,black,105016,3125,0.14,0.004
 race,4_region,Hartford Foundation,2021,latino,127337,3371,0.17,0.004
 race,4_region,Hartford Foundation,2021,other_race,75984,3203,0.1,0.004
-race,4_region,Hartford Foundation other towns,2021,total_pop,497561,301,NA,NA
-race,4_region,Hartford Foundation other towns,2021,white,362369,3403,0.73,0.007
-race,4_region,Hartford Foundation other towns,2021,black,41140,2096,0.08,0.004
-race,4_region,Hartford Foundation other towns,2021,latino,40669,2290,0.08,0.005
-race,4_region,Hartford Foundation other towns,2021,other_race,53383,2762,0.11,0.006
+race,4_region,Hartford Foundation other towns,2021,total_pop,637986,307,NA,NA
+race,4_region,Hartford Foundation other towns,2021,white,433368,3850,0.68,0.006
+race,4_region,Hartford Foundation other towns,2021,black,63577,2635,0.1,0.004
+race,4_region,Hartford Foundation other towns,2021,latino,72082,3003,0.11,0.005
+race,4_region,Hartford Foundation other towns,2021,other_race,68959,3075,0.11,0.005
 race,4_region,Hartford Inner Ring,2021,total_pop,426279,132,NA,NA
 race,4_region,Hartford Inner Ring,2021,white,265649,3139,0.62,0.007
 race,4_region,Hartford Inner Ring,2021,black,56503,2364,0.13,0.006
@@ -1498,11 +1606,21 @@ race,4_region,Hartford Outer Ring,2021,white,288137,2742,0.81,0.008
 race,4_region,Hartford Outer Ring,2021,black,9821,1295,0.03,0.004
 race,4_region,Hartford Outer Ring,2021,latino,20073,1776,0.06,0.005
 race,4_region,Hartford Outer Ring,2021,other_race,35715,2126,0.1,0.006
+race,4_region,Lower Connecticut River Valley COG,2021,total_pop,174580,378,NA,NA
+race,4_region,Lower Connecticut River Valley COG,2021,white,144194,1520,0.83,0.009
+race,4_region,Lower Connecticut River Valley COG,2021,black,7822,709,0.04,0.004
+race,4_region,Lower Connecticut River Valley COG,2021,latino,11428,1028,0.07,0.006
+race,4_region,Lower Connecticut River Valley COG,2021,other_race,11136,1152,0.06,0.007
 race,4_region,Lower Naugatuck Valley,2021,total_pop,139364,91,NA,NA
 race,4_region,Lower Naugatuck Valley,2021,white,105986,2138,0.76,0.015
 race,4_region,Lower Naugatuck Valley,2021,black,7054,1206,0.05,0.009
 race,4_region,Lower Naugatuck Valley,2021,latino,17508,1709,0.13,0.012
 race,4_region,Lower Naugatuck Valley,2021,other_race,8816,1399,0.06,0.01
+race,4_region,Naugatuck Valley COG,2021,total_pop,450204,150,NA,NA
+race,4_region,Naugatuck Valley COG,2021,white,310547,3783,0.69,0.008
+race,4_region,Naugatuck Valley COG,2021,black,33463,2098,0.07,0.005
+race,4_region,Naugatuck Valley COG,2021,latino,79019,3214,0.18,0.007
+race,4_region,Naugatuck Valley COG,2021,other_race,27175,2212,0.06,0.005
 race,4_region,New Haven Inner Ring,2021,total_pop,144732,84,NA,NA
 race,4_region,New Haven Inner Ring,2021,white,78282,2231,0.54,0.015
 race,4_region,New Haven Inner Ring,2021,black,27566,1989,0.19,0.014
@@ -1513,11 +1631,61 @@ race,4_region,New Haven Outer Ring,2021,white,156700,2012,0.84,0.011
 race,4_region,New Haven Outer Ring,2021,black,4836,1074,0.03,0.006
 race,4_region,New Haven Outer Ring,2021,latino,10495,1354,0.06,0.007
 race,4_region,New Haven Outer Ring,2021,other_race,14851,1327,0.08,0.007
+race,4_region,North Central DMHAS,2021,total_pop,1008086,330,NA,NA
+race,4_region,North Central DMHAS,2021,white,621422,4828,0.62,0.005
+race,4_region,North Central DMHAS,2021,black,119145,3465,0.12,0.003
+race,4_region,North Central DMHAS,2021,latino,176438,4088,0.18,0.004
+race,4_region,North Central DMHAS,2021,other_race,91081,3606,0.09,0.004
+race,4_region,Northeastern COG,2021,total_pop,95509,506,NA,NA
+race,4_region,Northeastern COG,2021,white,84872,1245,0.89,0.012
+race,4_region,Northeastern COG,2021,black,1253,340,0.01,0.004
+race,4_region,Northeastern COG,2021,latino,4750,936,0.05,0.01
+race,4_region,Northeastern COG,2021,other_race,4634,685,0.05,0.007
+race,4_region,Northwest Hills COG,2021,total_pop,112277,598,NA,NA
+race,4_region,Northwest Hills COG,2021,white,98108,1229,0.87,0.01
+race,4_region,Northwest Hills COG,2021,black,1720,410,0.02,0.004
+race,4_region,Northwest Hills COG,2021,latino,6776,803,0.06,0.007
+race,4_region,Northwest Hills COG,2021,other_race,5673,743,0.05,0.007
 race,4_region,Other New Haven County cities,2021,total_pop,105218,97,NA,NA
 race,4_region,Other New Haven County cities,2021,white,65493,1927,0.62,0.018
 race,4_region,Other New Haven County cities,2021,black,5731,754,0.05,0.007
 race,4_region,Other New Haven County cities,2021,latino,27400,1863,0.26,0.018
 race,4_region,Other New Haven County cities,2021,other_race,6594,948,0.06,0.009
+race,4_region,South Central COG,2021,total_pop,570706,165,NA,NA
+race,4_region,South Central COG,2021,white,338955,3987,0.59,0.007
+race,4_region,South Central COG,2021,black,81058,2957,0.14,0.005
+race,4_region,South Central COG,2021,latino,105503,3871,0.18,0.007
+race,4_region,South Central COG,2021,other_race,45190,2474,0.08,0.004
+race,4_region,South Central DMHAS,2021,total_pop,824281,210,NA,NA
+race,4_region,South Central DMHAS,2021,white,540435,4594,0.66,0.006
+race,4_region,South Central DMHAS,2021,black,93232,3155,0.11,0.004
+race,4_region,South Central DMHAS,2021,latino,128943,4257,0.16,0.005
+race,4_region,South Central DMHAS,2021,other_race,61671,2950,0.07,0.004
+race,4_region,Southeastern COG,2021,total_pop,281045,437,NA,NA
+race,4_region,Southeastern COG,2021,white,200610,2432,0.71,0.009
+race,4_region,Southeastern COG,2021,black,14885,1442,0.05,0.005
+race,4_region,Southeastern COG,2021,latino,40201,1960,0.14,0.007
+race,4_region,Southeastern COG,2021,other_race,25349,1721,0.09,0.006
+race,4_region,Southeastern DMHAS,2021,total_pop,436038,763,NA,NA
+race,4_region,Southeastern DMHAS,2021,white,334938,2901,0.77,0.007
+race,4_region,Southeastern DMHAS,2021,black,17400,1499,0.04,0.003
+race,4_region,Southeastern DMHAS,2021,latino,47921,2236,0.11,0.005
+race,4_region,Southeastern DMHAS,2021,other_race,35779,1997,0.08,0.005
+race,4_region,Southwestern DMHAS,2021,total_pop,713133,162,NA,NA
+race,4_region,Southwestern DMHAS,2021,white,398111,4387,0.56,0.006
+race,4_region,Southwestern DMHAS,2021,black,91542,3387,0.13,0.005
+race,4_region,Southwestern DMHAS,2021,latino,159407,4321,0.22,0.006
+race,4_region,Southwestern DMHAS,2021,other_race,64073,3045,0.09,0.004
+race,4_region,Western COG,2021,total_pop,619415,283,NA,NA
+race,4_region,Western COG,2021,white,405590,4334,0.65,0.007
+race,4_region,Western COG,2021,black,40551,2727,0.07,0.004
+race,4_region,Western COG,2021,latino,113146,3901,0.18,0.006
+race,4_region,Western COG,2021,other_race,60128,2906,0.1,0.005
+race,4_region,Western DMHAS,2021,total_pop,623792,657,NA,NA
+race,4_region,Western DMHAS,2021,white,445942,4164,0.71,0.007
+race,4_region,Western DMHAS,2021,black,37837,2358,0.06,0.004
+race,4_region,Western DMHAS,2021,latino,97356,3318,0.16,0.005
+race,4_region,Western DMHAS,2021,other_race,42657,2612,0.07,0.004
 race,6_town,Andover,2021,total_pop,2998,116,NA,NA
 race,6_town,Andover,2021,white,2728,189,0.91,0.052
 race,6_town,Andover,2021,black,40,38,0.01,0.013
@@ -2385,10 +2553,14 @@ foreign_born,3_county,Windham County,2021,total_pop,116503,0,NA,NA
 foreign_born,3_county,Windham County,2021,foreign_born,5351,625,0.05,0.005
 foreign_born,4_region,6 wealthiest Fairfield County,2021,total_pop,123105,98,NA,NA
 foreign_born,4_region,6 wealthiest Fairfield County,2021,foreign_born,16354,1160,0.13,0.009
+foreign_born,4_region,Capitol Region COG,2021,total_pop,975609,328,NA,NA
+foreign_born,4_region,Capitol Region COG,2021,foreign_born,143738,3819,0.15,0.004
 foreign_born,4_region,Eastern cities,2021,total_pop,130771,149,NA,NA
 foreign_born,4_region,Eastern cities,2021,foreign_born,16559,1445,0.13,0.011
 foreign_born,4_region,Greater Bridgeport,2021,total_pop,325985,85,NA,NA
 foreign_born,4_region,Greater Bridgeport,2021,foreign_born,71374,2884,0.22,0.009
+foreign_born,4_region,Greater Bridgeport COG,2021,total_pop,325985,85,NA,NA
+foreign_born,4_region,Greater Bridgeport COG,2021,foreign_born,71374,2884,0.22,0.009
 foreign_born,4_region,Greater Danbury,2021,total_pop,267618,342,NA,NA
 foreign_born,4_region,Greater Danbury,2021,foreign_born,46578,2228,0.17,0.008
 foreign_born,4_region,Greater Danbury other towns,2021,total_pop,153347,338,NA,NA
@@ -2405,20 +2577,44 @@ foreign_born,4_region,Greater Waterbury,2021,total_pop,339212,514,NA,NA
 foreign_born,4_region,Greater Waterbury,2021,foreign_born,41166,2212,0.12,0.007
 foreign_born,4_region,Hartford Foundation,2021,total_pop,759548,315,NA,NA
 foreign_born,4_region,Hartford Foundation,2021,foreign_born,116750,3409,0.15,0.004
-foreign_born,4_region,Hartford Foundation other towns,2021,total_pop,497561,301,NA,NA
-foreign_born,4_region,Hartford Foundation other towns,2021,foreign_born,68130,2484,0.14,0.005
+foreign_born,4_region,Hartford Foundation other towns,2021,total_pop,637986,307,NA,NA
+foreign_born,4_region,Hartford Foundation other towns,2021,foreign_born,90812,2988,0.14,0.005
 foreign_born,4_region,Hartford Inner Ring,2021,total_pop,426279,132,NA,NA
 foreign_born,4_region,Hartford Inner Ring,2021,foreign_born,66621,2632,0.16,0.006
 foreign_born,4_region,Hartford Outer Ring,2021,total_pop,353746,290,NA,NA
 foreign_born,4_region,Hartford Outer Ring,2021,foreign_born,37403,1774,0.11,0.005
+foreign_born,4_region,Lower Connecticut River Valley COG,2021,total_pop,174580,378,NA,NA
+foreign_born,4_region,Lower Connecticut River Valley COG,2021,foreign_born,13651,1079,0.08,0.006
 foreign_born,4_region,Lower Naugatuck Valley,2021,total_pop,139364,91,NA,NA
 foreign_born,4_region,Lower Naugatuck Valley,2021,foreign_born,17026,1465,0.12,0.011
+foreign_born,4_region,Naugatuck Valley COG,2021,total_pop,450204,150,NA,NA
+foreign_born,4_region,Naugatuck Valley COG,2021,foreign_born,52986,2532,0.12,0.006
 foreign_born,4_region,New Haven Inner Ring,2021,total_pop,144732,84,NA,NA
 foreign_born,4_region,New Haven Inner Ring,2021,foreign_born,22695,1646,0.16,0.011
 foreign_born,4_region,New Haven Outer Ring,2021,total_pop,186882,95,NA,NA
 foreign_born,4_region,New Haven Outer Ring,2021,foreign_born,18544,1222,0.1,0.007
+foreign_born,4_region,North Central DMHAS,2021,total_pop,1008086,330,NA,NA
+foreign_born,4_region,North Central DMHAS,2021,foreign_born,145490,3854,0.14,0.004
+foreign_born,4_region,Northeastern COG,2021,total_pop,95509,506,NA,NA
+foreign_born,4_region,Northeastern COG,2021,foreign_born,3367,552,0.04,0.006
+foreign_born,4_region,Northwest Hills COG,2021,total_pop,112277,598,NA,NA
+foreign_born,4_region,Northwest Hills COG,2021,foreign_born,7942,834,0.07,0.007
 foreign_born,4_region,Other New Haven County cities,2021,total_pop,105218,97,NA,NA
 foreign_born,4_region,Other New Haven County cities,2021,foreign_born,12173,1443,0.12,0.014
+foreign_born,4_region,South Central COG,2021,total_pop,570706,165,NA,NA
+foreign_born,4_region,South Central COG,2021,foreign_born,76651,3010,0.13,0.005
+foreign_born,4_region,South Central DMHAS,2021,total_pop,824281,210,NA,NA
+foreign_born,4_region,South Central DMHAS,2021,foreign_born,100365,3379,0.12,0.004
+foreign_born,4_region,Southeastern COG,2021,total_pop,281045,437,NA,NA
+foreign_born,4_region,Southeastern COG,2021,foreign_born,24706,1632,0.09,0.006
+foreign_born,4_region,Southeastern DMHAS,2021,total_pop,436038,763,NA,NA
+foreign_born,4_region,Southeastern DMHAS,2021,foreign_born,32918,1838,0.08,0.004
+foreign_born,4_region,Southwestern DMHAS,2021,total_pop,713133,162,NA,NA
+foreign_born,4_region,Southwestern DMHAS,2021,foreign_born,167216,4304,0.23,0.006
+foreign_born,4_region,Western COG,2021,total_pop,619415,283,NA,NA
+foreign_born,4_region,Western COG,2021,foreign_born,139805,3868,0.23,0.006
+foreign_born,4_region,Western DMHAS,2021,total_pop,623792,657,NA,NA
+foreign_born,4_region,Western DMHAS,2021,foreign_born,88231,3160,0.14,0.005
 foreign_born,6_town,Andover,2021,total_pop,2998,116,NA,NA
 foreign_born,6_town,Andover,2021,foreign_born,170,155,0.06,0.052
 foreign_born,6_town,Ansonia,2021,total_pop,18945,32,NA,NA
@@ -2779,10 +2975,14 @@ tenure,3_county,Windham County,2021,total_households,45425,528,NA,NA
 tenure,3_county,Windham County,2021,owner_occupied,31429,746,0.69,0.014
 tenure,4_region,6 wealthiest Fairfield County,2021,total_households,42221,704,NA,NA
 tenure,4_region,6 wealthiest Fairfield County,2021,owner_occupied,36757,745,0.87,0.01
+tenure,4_region,Capitol Region COG,2021,total_households,384403,2524,NA,NA
+tenure,4_region,Capitol Region COG,2021,owner_occupied,251035,2467,0.65,0.005
 tenure,4_region,Eastern cities,2021,total_households,52966,1226,NA,NA
 tenure,4_region,Eastern cities,2021,owner_occupied,25347,956,0.48,0.014
 tenure,4_region,Greater Bridgeport,2021,total_households,115462,1430,NA,NA
 tenure,4_region,Greater Bridgeport,2021,owner_occupied,74947,1470,0.65,0.01
+tenure,4_region,Greater Bridgeport COG,2021,total_households,115462,1430,NA,NA
+tenure,4_region,Greater Bridgeport COG,2021,owner_occupied,74947,1470,0.65,0.01
 tenure,4_region,Greater Danbury,2021,total_households,100191,1371,NA,NA
 tenure,4_region,Greater Danbury,2021,owner_occupied,76102,1388,0.76,0.009
 tenure,4_region,Greater Danbury other towns,2021,total_households,57347,897,NA,NA
@@ -2799,20 +2999,44 @@ tenure,4_region,Greater Waterbury,2021,total_households,132298,1573,NA,NA
 tenure,4_region,Greater Waterbury,2021,owner_occupied,91917,1653,0.69,0.009
 tenure,4_region,Hartford Foundation,2021,total_households,302137,2147,NA,NA
 tenure,4_region,Hartford Foundation,2021,owner_occupied,198225,2183,0.66,0.006
-tenure,4_region,Hartford Foundation other towns,2021,total_households,196964,1679,NA,NA
-tenure,4_region,Hartford Foundation other towns,2021,owner_occupied,154300,1808,0.78,0.006
+tenure,4_region,Hartford Foundation other towns,2021,total_households,255258,1943,NA,NA
+tenure,4_region,Hartford Foundation other towns,2021,owner_occupied,186264,2042,0.73,0.006
 tenure,4_region,Hartford Inner Ring,2021,total_households,175093,1695,NA,NA
 tenure,4_region,Hartford Inner Ring,2021,owner_occupied,119771,1737,0.68,0.007
 tenure,4_region,Hartford Outer Ring,2021,total_households,134170,1356,NA,NA
 tenure,4_region,Hartford Outer Ring,2021,owner_occupied,107649,1434,0.8,0.007
+tenure,4_region,Lower Connecticut River Valley COG,2021,total_households,72251,1011,NA,NA
+tenure,4_region,Lower Connecticut River Valley COG,2021,owner_occupied,53952,1100,0.75,0.011
 tenure,4_region,Lower Naugatuck Valley,2021,total_households,55858,1131,NA,NA
 tenure,4_region,Lower Naugatuck Valley,2021,owner_occupied,40959,1033,0.73,0.011
+tenure,4_region,Naugatuck Valley COG,2021,total_households,178251,1874,NA,NA
+tenure,4_region,Naugatuck Valley COG,2021,owner_occupied,121396,1867,0.68,0.008
 tenure,4_region,New Haven Inner Ring,2021,total_households,53508,1064,NA,NA
 tenure,4_region,New Haven Inner Ring,2021,owner_occupied,32219,941,0.6,0.013
 tenure,4_region,New Haven Outer Ring,2021,total_households,74057,1001,NA,NA
 tenure,4_region,New Haven Outer Ring,2021,owner_occupied,59323,1060,0.8,0.009
+tenure,4_region,North Central DMHAS,2021,total_households,401001,2537,NA,NA
+tenure,4_region,North Central DMHAS,2021,owner_occupied,262509,2492,0.65,0.005
+tenure,4_region,Northeastern COG,2021,total_households,38029,673,NA,NA
+tenure,4_region,Northeastern COG,2021,owner_occupied,28707,750,0.75,0.015
+tenure,4_region,Northwest Hills COG,2021,total_households,45233,823,NA,NA
+tenure,4_region,Northwest Hills COG,2021,owner_occupied,34340,823,0.76,0.012
 tenure,4_region,Other New Haven County cities,2021,total_households,43471,1045,NA,NA
 tenure,4_region,Other New Haven County cities,2021,owner_occupied,28035,1004,0.64,0.017
+tenure,4_region,South Central COG,2021,total_households,221300,2157,NA,NA
+tenure,4_region,South Central COG,2021,owner_occupied,133654,1896,0.6,0.006
+tenure,4_region,South Central DMHAS,2021,total_households,325781,2549,NA,NA
+tenure,4_region,South Central DMHAS,2021,owner_occupied,210212,2319,0.65,0.005
+tenure,4_region,Southeastern COG,2021,total_households,113239,1553,NA,NA
+tenure,4_region,Southeastern COG,2021,owner_occupied,73358,1382,0.65,0.008
+tenure,4_region,Southeastern DMHAS,2021,total_households,171339,1812,NA,NA
+tenure,4_region,Southeastern DMHAS,2021,owner_occupied,116395,1679,0.68,0.007
+tenure,4_region,Southwestern DMHAS,2021,total_households,259324,2117,NA,NA
+tenure,4_region,Southwestern DMHAS,2021,owner_occupied,165182,2182,0.64,0.007
+tenure,4_region,Western COG,2021,total_households,229156,2030,NA,NA
+tenure,4_region,Western COG,2021,owner_occupied,154114,2074,0.67,0.007
+tenure,4_region,Western DMHAS,2021,total_households,239879,2136,NA,NA
+tenure,4_region,Western DMHAS,2021,owner_occupied,171205,2195,0.71,0.007
 tenure,6_town,Andover,2021,total_households,1178,102,NA,NA
 tenure,6_town,Andover,2021,owner_occupied,1025,88,0.87,0.106
 tenure,6_town,Ansonia,2021,total_households,8040,392,NA,NA
@@ -3173,10 +3397,14 @@ housing_cost,3_county,Windham County,2021,total_households,43994,1564,NA,NA
 housing_cost,3_county,Windham County,2021,cost_burden,13954,933,0.32,0.018
 housing_cost,4_region,6 wealthiest Fairfield County,2021,total_households,41632,1317,NA,NA
 housing_cost,4_region,6 wealthiest Fairfield County,2021,cost_burden,13415,876,0.32,0.018
+housing_cost,4_region,Capitol Region COG,2021,total_households,373927,4609,NA,NA
+housing_cost,4_region,Capitol Region COG,2021,cost_burden,124606,2875,0.33,0.006
 housing_cost,4_region,Eastern cities,2021,total_households,51478,1870,NA,NA
 housing_cost,4_region,Eastern cities,2021,cost_burden,19793,1211,0.38,0.019
 housing_cost,4_region,Greater Bridgeport,2021,total_households,112944,2584,NA,NA
 housing_cost,4_region,Greater Bridgeport,2021,cost_burden,47951,1750,0.42,0.012
+housing_cost,4_region,Greater Bridgeport COG,2021,total_households,112944,2584,NA,NA
+housing_cost,4_region,Greater Bridgeport COG,2021,cost_burden,47951,1750,0.42,0.012
 housing_cost,4_region,Greater Danbury,2021,total_households,98517,2395,NA,NA
 housing_cost,4_region,Greater Danbury,2021,cost_burden,34862,1556,0.35,0.013
 housing_cost,4_region,Greater Danbury other towns,2021,total_households,56487,1591,NA,NA
@@ -3193,20 +3421,44 @@ housing_cost,4_region,Greater Waterbury,2021,total_households,128898,2969,NA,NA
 housing_cost,4_region,Greater Waterbury,2021,cost_burden,43310,1808,0.34,0.012
 housing_cost,4_region,Hartford Foundation,2021,total_households,294180,4016,NA,NA
 housing_cost,4_region,Hartford Foundation,2021,cost_burden,97663,2523,0.33,0.007
-housing_cost,4_region,Hartford Foundation other towns,2021,total_households,192808,3075,NA,NA
-housing_cost,4_region,Hartford Foundation other towns,2021,cost_burden,52687,1826,0.27,0.008
+housing_cost,4_region,Hartford Foundation other towns,2021,total_households,249901,3643,NA,NA
+housing_cost,4_region,Hartford Foundation other towns,2021,cost_burden,73841,2182,0.3,0.008
 housing_cost,4_region,Hartford Inner Ring,2021,total_households,171265,3176,NA,NA
 housing_cost,4_region,Hartford Inner Ring,2021,cost_burden,54851,1922,0.32,0.01
 housing_cost,4_region,Hartford Outer Ring,2021,total_households,131170,2565,NA,NA
 housing_cost,4_region,Hartford Outer Ring,2021,cost_burden,34288,1490,0.26,0.01
+housing_cost,4_region,Lower Connecticut River Valley COG,2021,total_households,70859,1958,NA,NA
+housing_cost,4_region,Lower Connecticut River Valley COG,2021,cost_burden,21926,1187,0.31,0.014
 housing_cost,4_region,Lower Naugatuck Valley,2021,total_households,54920,1981,NA,NA
 housing_cost,4_region,Lower Naugatuck Valley,2021,cost_burden,17833,1276,0.32,0.02
+housing_cost,4_region,Naugatuck Valley COG,2021,total_households,173962,3441,NA,NA
+housing_cost,4_region,Naugatuck Valley COG,2021,cost_burden,58991,2165,0.34,0.01
 housing_cost,4_region,New Haven Inner Ring,2021,total_households,52034,1771,NA,NA
 housing_cost,4_region,New Haven Inner Ring,2021,cost_burden,19573,1145,0.38,0.018
 housing_cost,4_region,New Haven Outer Ring,2021,total_households,72691,1948,NA,NA
 housing_cost,4_region,New Haven Outer Ring,2021,cost_burden,22209,1207,0.31,0.014
+housing_cost,4_region,North Central DMHAS,2021,total_households,390582,4676,NA,NA
+housing_cost,4_region,North Central DMHAS,2021,cost_burden,129823,2923,0.33,0.006
+housing_cost,4_region,Northeastern COG,2021,total_households,37078,1425,NA,NA
+housing_cost,4_region,Northeastern COG,2021,cost_burden,10748,791,0.29,0.018
+housing_cost,4_region,Northwest Hills COG,2021,total_households,44256,1407,NA,NA
+housing_cost,4_region,Northwest Hills COG,2021,cost_burden,13439,879,0.3,0.017
 housing_cost,4_region,Other New Haven County cities,2021,total_households,42231,1651,NA,NA
 housing_cost,4_region,Other New Haven County cities,2021,cost_burden,13956,1022,0.33,0.02
+housing_cost,4_region,South Central COG,2021,total_households,215536,3644,NA,NA
+housing_cost,4_region,South Central COG,2021,cost_burden,79613,2390,0.37,0.009
+housing_cost,4_region,South Central DMHAS,2021,total_households,317973,4411,NA,NA
+housing_cost,4_region,South Central DMHAS,2021,cost_burden,112973,2874,0.36,0.008
+housing_cost,4_region,Southeastern COG,2021,total_households,110742,2585,NA,NA
+housing_cost,4_region,Southeastern COG,2021,cost_burden,36307,1588,0.33,0.012
+housing_cost,4_region,Southeastern DMHAS,2021,total_households,167157,3135,NA,NA
+housing_cost,4_region,Southeastern DMHAS,2021,cost_burden,53050,1889,0.32,0.01
+housing_cost,4_region,Southwestern DMHAS,2021,total_households,253882,3831,NA,NA
+housing_cost,4_region,Southwestern DMHAS,2021,cost_burden,102288,2554,0.4,0.008
+housing_cost,4_region,Western COG,2021,total_households,224848,3610,NA,NA
+housing_cost,4_region,Western COG,2021,cost_burden,84445,2375,0.38,0.009
+housing_cost,4_region,Western DMHAS,2021,total_households,234558,3843,NA,NA
+housing_cost,4_region,Western DMHAS,2021,cost_burden,79892,2408,0.34,0.009
 housing_cost,6_town,Andover,2021,total_households,1178,207,NA,NA
 housing_cost,6_town,Andover,2021,cost_burden,330,131,0.28,0.1
 housing_cost,6_town,Ansonia,2021,total_households,7757,770,NA,NA
@@ -3567,10 +3819,14 @@ vehicles,3_county,Windham County,2021,total_households,45425,528,NA,NA
 vehicles,3_county,Windham County,2021,has_vehicle,42324,1356,0.93,0.028
 vehicles,4_region,6 wealthiest Fairfield County,2021,total_households,42221,704,NA,NA
 vehicles,4_region,6 wealthiest Fairfield County,2021,has_vehicle,41388,1238,0.98,0.024
+vehicles,4_region,Capitol Region COG,2021,total_households,384403,2524,NA,NA
+vehicles,4_region,Capitol Region COG,2021,has_vehicle,348415,4102,0.91,0.009
 vehicles,4_region,Eastern cities,2021,total_households,52966,1226,NA,NA
 vehicles,4_region,Eastern cities,2021,has_vehicle,46489,1688,0.88,0.025
 vehicles,4_region,Greater Bridgeport,2021,total_households,115462,1430,NA,NA
 vehicles,4_region,Greater Bridgeport,2021,has_vehicle,102967,2379,0.89,0.017
+vehicles,4_region,Greater Bridgeport COG,2021,total_households,115462,1430,NA,NA
+vehicles,4_region,Greater Bridgeport COG,2021,has_vehicle,102967,2379,0.89,0.017
 vehicles,4_region,Greater Danbury,2021,total_households,100191,1371,NA,NA
 vehicles,4_region,Greater Danbury,2021,has_vehicle,95486,2086,0.95,0.016
 vehicles,4_region,Greater Danbury other towns,2021,total_households,57347,897,NA,NA
@@ -3587,20 +3843,44 @@ vehicles,4_region,Greater Waterbury,2021,total_households,132298,1573,NA,NA
 vehicles,4_region,Greater Waterbury,2021,has_vehicle,120847,2649,0.91,0.017
 vehicles,4_region,Hartford Foundation,2021,total_households,302137,2147,NA,NA
 vehicles,4_region,Hartford Foundation,2021,has_vehicle,272887,3560,0.9,0.01
-vehicles,4_region,Hartford Foundation other towns,2021,total_households,196964,1679,NA,NA
-vehicles,4_region,Hartford Foundation other towns,2021,has_vehicle,186509,2917,0.95,0.012
+vehicles,4_region,Hartford Foundation other towns,2021,total_households,255258,1943,NA,NA
+vehicles,4_region,Hartford Foundation other towns,2021,has_vehicle,239825,3316,0.94,0.011
 vehicles,4_region,Hartford Inner Ring,2021,total_households,175093,1695,NA,NA
 vehicles,4_region,Hartford Inner Ring,2021,has_vehicle,162633,2777,0.93,0.013
 vehicles,4_region,Hartford Outer Ring,2021,total_households,134170,1356,NA,NA
 vehicles,4_region,Hartford Outer Ring,2021,has_vehicle,128939,2504,0.96,0.016
+vehicles,4_region,Lower Connecticut River Valley COG,2021,total_households,72251,1011,NA,NA
+vehicles,4_region,Lower Connecticut River Valley COG,2021,has_vehicle,68788,1808,0.95,0.021
 vehicles,4_region,Lower Naugatuck Valley,2021,total_households,55858,1131,NA,NA
 vehicles,4_region,Lower Naugatuck Valley,2021,has_vehicle,52346,1768,0.94,0.025
+vehicles,4_region,Naugatuck Valley COG,2021,total_households,178251,1874,NA,NA
+vehicles,4_region,Naugatuck Valley COG,2021,has_vehicle,162522,3064,0.91,0.014
 vehicles,4_region,New Haven Inner Ring,2021,total_households,53508,1064,NA,NA
 vehicles,4_region,New Haven Inner Ring,2021,has_vehicle,48676,1612,0.91,0.024
 vehicles,4_region,New Haven Outer Ring,2021,total_households,74057,1001,NA,NA
 vehicles,4_region,New Haven Outer Ring,2021,has_vehicle,71354,1770,0.96,0.02
+vehicles,4_region,North Central DMHAS,2021,total_households,401001,2537,NA,NA
+vehicles,4_region,North Central DMHAS,2021,has_vehicle,363763,4149,0.91,0.009
+vehicles,4_region,Northeastern COG,2021,total_households,38029,673,NA,NA
+vehicles,4_region,Northeastern COG,2021,has_vehicle,36104,1319,0.95,0.03
+vehicles,4_region,Northwest Hills COG,2021,total_households,45233,823,NA,NA
+vehicles,4_region,Northwest Hills COG,2021,has_vehicle,42416,1292,0.94,0.023
 vehicles,4_region,Other New Haven County cities,2021,total_households,43471,1045,NA,NA
 vehicles,4_region,Other New Haven County cities,2021,has_vehicle,39259,1482,0.9,0.026
+vehicles,4_region,South Central COG,2021,total_households,221300,2157,NA,NA
+vehicles,4_region,South Central COG,2021,has_vehicle,196405,3161,0.89,0.011
+vehicles,4_region,South Central DMHAS,2021,total_households,325781,2549,NA,NA
+vehicles,4_region,South Central DMHAS,2021,has_vehicle,294932,3884,0.91,0.01
+vehicles,4_region,Southeastern COG,2021,total_households,113239,1553,NA,NA
+vehicles,4_region,Southeastern COG,2021,has_vehicle,105066,2378,0.93,0.017
+vehicles,4_region,Southeastern DMHAS,2021,total_households,171339,1812,NA,NA
+vehicles,4_region,Southeastern DMHAS,2021,has_vehicle,160218,2901,0.94,0.014
+vehicles,4_region,Southwestern DMHAS,2021,total_households,259324,2117,NA,NA
+vehicles,4_region,Southwestern DMHAS,2021,has_vehicle,238220,3459,0.92,0.011
+vehicles,4_region,Western COG,2021,total_households,229156,2030,NA,NA
+vehicles,4_region,Western COG,2021,has_vehicle,216467,3178,0.94,0.011
+vehicles,4_region,Western DMHAS,2021,total_households,239879,2136,NA,NA
+vehicles,4_region,Western DMHAS,2021,has_vehicle,222017,3409,0.93,0.012
 vehicles,6_town,Andover,2021,total_households,1178,102,NA,NA
 vehicles,6_town,Andover,2021,has_vehicle,1166,208,0.99,0.154
 vehicles,6_town,Ansonia,2021,total_households,8040,392,NA,NA
@@ -3972,12 +4252,18 @@ education,3_county,Windham County,2021,bachelors_plus,20007,1108,0.24,0.014
 education,4_region,6 wealthiest Fairfield County,2021,ages25plus,80048,1083,NA,NA
 education,4_region,6 wealthiest Fairfield County,2021,less_than_high_school,1537,272,0.02,0.003
 education,4_region,6 wealthiest Fairfield County,2021,bachelors_plus,62813,1683,0.78,0.018
+education,4_region,Capitol Region COG,2021,ages25plus,672584,3455,NA,NA
+education,4_region,Capitol Region COG,2021,less_than_high_school,61970,2189,0.09,0.003
+education,4_region,Capitol Region COG,2021,bachelors_plus,271615,3908,0.4,0.005
 education,4_region,Eastern cities,2021,ages25plus,85916,1462,NA,NA
 education,4_region,Eastern cities,2021,less_than_high_school,9522,861,0.11,0.01
 education,4_region,Eastern cities,2021,bachelors_plus,22835,1213,0.27,0.013
 education,4_region,Greater Bridgeport,2021,ages25plus,215837,2010,NA,NA
 education,4_region,Greater Bridgeport,2021,less_than_high_school,28451,1379,0.13,0.006
 education,4_region,Greater Bridgeport,2021,bachelors_plus,83495,2392,0.39,0.01
+education,4_region,Greater Bridgeport COG,2021,ages25plus,215837,2010,NA,NA
+education,4_region,Greater Bridgeport COG,2021,less_than_high_school,28451,1379,0.13,0.006
+education,4_region,Greater Bridgeport COG,2021,bachelors_plus,83495,2392,0.39,0.01
 education,4_region,Greater Danbury,2021,ages25plus,188390,1906,NA,NA
 education,4_region,Greater Danbury,2021,less_than_high_school,14869,1143,0.08,0.006
 education,4_region,Greater Danbury,2021,bachelors_plus,88844,2227,0.47,0.011
@@ -4002,27 +4288,63 @@ education,4_region,Greater Waterbury,2021,bachelors_plus,83739,2288,0.35,0.009
 education,4_region,Hartford Foundation,2021,ages25plus,533753,2962,NA,NA
 education,4_region,Hartford Foundation,2021,less_than_high_school,47294,1877,0.09,0.003
 education,4_region,Hartford Foundation,2021,bachelors_plus,226146,3532,0.42,0.006
-education,4_region,Hartford Foundation other towns,2021,ages25plus,359372,2239,NA,NA
-education,4_region,Hartford Foundation other towns,2021,less_than_high_school,18196,1098,0.05,0.003
-education,4_region,Hartford Foundation other towns,2021,bachelors_plus,182794,3119,0.51,0.008
+education,4_region,Hartford Foundation other towns,2021,ages25plus,457552,2707,NA,NA
+education,4_region,Hartford Foundation other towns,2021,less_than_high_school,27396,1406,0.06,0.003
+education,4_region,Hartford Foundation other towns,2021,bachelors_plus,213449,3388,0.47,0.007
 education,4_region,Hartford Inner Ring,2021,ages25plus,307189,2334,NA,NA
 education,4_region,Hartford Inner Ring,2021,less_than_high_school,22959,1317,0.07,0.004
 education,4_region,Hartford Inner Ring,2021,bachelors_plus,123022,2709,0.4,0.008
 education,4_region,Hartford Outer Ring,2021,ages25plus,242295,1943,NA,NA
 education,4_region,Hartford Outer Ring,2021,less_than_high_school,10637,883,0.04,0.004
 education,4_region,Hartford Outer Ring,2021,bachelors_plus,126645,2516,0.52,0.01
+education,4_region,Lower Connecticut River Valley COG,2021,ages25plus,128772,1264,NA,NA
+education,4_region,Lower Connecticut River Valley COG,2021,less_than_high_school,6356,690,0.05,0.005
+education,4_region,Lower Connecticut River Valley COG,2021,bachelors_plus,56937,1777,0.44,0.013
 education,4_region,Lower Naugatuck Valley,2021,ages25plus,102850,1391,NA,NA
 education,4_region,Lower Naugatuck Valley,2021,less_than_high_school,7521,967,0.07,0.009
 education,4_region,Lower Naugatuck Valley,2021,bachelors_plus,35408,1640,0.34,0.015
+education,4_region,Naugatuck Valley COG,2021,ages25plus,322071,2532,NA,NA
+education,4_region,Naugatuck Valley COG,2021,less_than_high_school,31240,1778,0.1,0.005
+education,4_region,Naugatuck Valley COG,2021,bachelors_plus,103968,2683,0.32,0.008
 education,4_region,New Haven Inner Ring,2021,ages25plus,97549,1609,NA,NA
 education,4_region,New Haven Inner Ring,2021,less_than_high_school,8468,885,0.09,0.009
 education,4_region,New Haven Inner Ring,2021,bachelors_plus,32950,1557,0.34,0.015
 education,4_region,New Haven Outer Ring,2021,ages25plus,138559,1371,NA,NA
 education,4_region,New Haven Outer Ring,2021,less_than_high_school,5212,537,0.04,0.004
 education,4_region,New Haven Outer Ring,2021,bachelors_plus,71897,1988,0.52,0.013
+education,4_region,North Central DMHAS,2021,ages25plus,706546,3497,NA,NA
+education,4_region,North Central DMHAS,2021,less_than_high_school,65286,2198,0.09,0.003
+education,4_region,North Central DMHAS,2021,bachelors_plus,278102,3948,0.39,0.005
+education,4_region,Northeastern COG,2021,ages25plus,69879,896,NA,NA
+education,4_region,Northeastern COG,2021,less_than_high_school,6339,616,0.09,0.009
+education,4_region,Northeastern COG,2021,bachelors_plus,17815,1036,0.25,0.014
+education,4_region,Northwest Hills COG,2021,ages25plus,83833,983,NA,NA
+education,4_region,Northwest Hills COG,2021,less_than_high_school,5358,569,0.06,0.007
+education,4_region,Northwest Hills COG,2021,bachelors_plus,30435,1159,0.36,0.013
 education,4_region,Other New Haven County cities,2021,ages25plus,76844,1181,NA,NA
 education,4_region,Other New Haven County cities,2021,less_than_high_school,8974,814,0.12,0.01
 education,4_region,Other New Haven County cities,2021,bachelors_plus,21171,1144,0.28,0.014
+education,4_region,South Central COG,2021,ages25plus,396758,2841,NA,NA
+education,4_region,South Central COG,2021,less_than_high_school,34857,1781,0.09,0.004
+education,4_region,South Central COG,2021,bachelors_plus,156583,3208,0.39,0.008
+education,4_region,South Central DMHAS,2021,ages25plus,584524,3280,NA,NA
+education,4_region,South Central DMHAS,2021,less_than_high_school,46011,2067,0.08,0.004
+education,4_region,South Central DMHAS,2021,bachelors_plus,231777,3891,0.4,0.006
+education,4_region,Southeastern COG,2021,ages25plus,195376,1921,NA,NA
+education,4_region,Southeastern COG,2021,less_than_high_school,15290,1041,0.08,0.005
+education,4_region,Southeastern COG,2021,bachelors_plus,64078,1912,0.33,0.009
+education,4_region,Southeastern DMHAS,2021,ages25plus,296893,2308,NA,NA
+education,4_region,Southeastern DMHAS,2021,less_than_high_school,23066,1291,0.08,0.004
+education,4_region,Southeastern DMHAS,2021,bachelors_plus,96978,2364,0.33,0.008
+education,4_region,Southwestern DMHAS,2021,ages25plus,484337,2945,NA,NA
+education,4_region,Southwestern DMHAS,2021,less_than_high_school,49815,1913,0.1,0.004
+education,4_region,Southwestern DMHAS,2021,bachelors_plus,243817,3781,0.5,0.007
+education,4_region,Western COG,2021,ages25plus,430027,2809,NA,NA
+education,4_region,Western COG,2021,less_than_high_school,35160,1732,0.08,0.004
+education,4_region,Western COG,2021,bachelors_plus,235040,3571,0.55,0.007
+education,4_region,Western DMHAS,2021,ages25plus,442837,2902,NA,NA
+education,4_region,Western DMHAS,2021,less_than_high_school,40843,1965,0.09,0.004
+education,4_region,Western DMHAS,2021,bachelors_plus,169292,3139,0.38,0.007
 education,6_town,Andover,2021,ages25plus,2263,185,NA,NA
 education,6_town,Andover,2021,less_than_high_school,64,48,0.03,0.021
 education,6_town,Andover,2021,bachelors_plus,940,198,0.42,0.081
@@ -4742,12 +5064,18 @@ poverty,3_county,Windham County,2021,low_income,28121,1965,0.25,0.017
 poverty,4_region,6 wealthiest Fairfield County,2021,poverty_status_determined,122485,1942,NA,NA
 poverty,4_region,6 wealthiest Fairfield County,2021,poverty,3896,690,0.03,0.006
 poverty,4_region,6 wealthiest Fairfield County,2021,low_income,9178,1445,0.07,0.012
+poverty,4_region,Capitol Region COG,2021,poverty_status_determined,941255,8044,NA,NA
+poverty,4_region,Capitol Region COG,2021,poverty,103696,4161,0.11,0.004
+poverty,4_region,Capitol Region COG,2021,low_income,218612,6228,0.23,0.006
 poverty,4_region,Eastern cities,2021,poverty_status_determined,120257,3677,NA,NA
 poverty,4_region,Eastern cities,2021,poverty,18456,1758,0.15,0.014
 poverty,4_region,Eastern cities,2021,low_income,42331,2760,0.35,0.02
 poverty,4_region,Greater Bridgeport,2021,poverty_status_determined,316642,5464,NA,NA
 poverty,4_region,Greater Bridgeport,2021,poverty,43285,2926,0.14,0.009
 poverty,4_region,Greater Bridgeport,2021,low_income,87536,4353,0.28,0.013
+poverty,4_region,Greater Bridgeport COG,2021,poverty_status_determined,316642,5464,NA,NA
+poverty,4_region,Greater Bridgeport COG,2021,poverty,43285,2926,0.14,0.009
+poverty,4_region,Greater Bridgeport COG,2021,low_income,87536,4353,0.28,0.013
 poverty,4_region,Greater Danbury,2021,poverty_status_determined,262471,4446,NA,NA
 poverty,4_region,Greater Danbury,2021,poverty,16825,1768,0.06,0.007
 poverty,4_region,Greater Danbury,2021,low_income,46400,3388,0.18,0.013
@@ -4772,27 +5100,63 @@ poverty,4_region,Greater Waterbury,2021,low_income,75850,4143,0.23,0.012
 poverty,4_region,Hartford Foundation,2021,poverty_status_determined,740843,7023,NA,NA
 poverty,4_region,Hartford Foundation,2021,poverty,78830,3653,0.11,0.005
 poverty,4_region,Hartford Foundation,2021,low_income,165230,5426,0.22,0.007
-poverty,4_region,Hartford Foundation other towns,2021,poverty_status_determined,487284,4569,NA,NA
-poverty,4_region,Hartford Foundation other towns,2021,poverty,29582,2365,0.06,0.005
-poverty,4_region,Hartford Foundation other towns,2021,low_income,63960,3324,0.13,0.007
+poverty,4_region,Hartford Foundation other towns,2021,poverty_status_determined,626185,6025,NA,NA
+poverty,4_region,Hartford Foundation other towns,2021,poverty,46228,2920,0.07,0.005
+poverty,4_region,Hartford Foundation other towns,2021,low_income,105406,4547,0.17,0.007
 poverty,4_region,Hartford Inner Ring,2021,poverty_status_determined,420005,5471,NA,NA
 poverty,4_region,Hartford Inner Ring,2021,poverty,35284,2516,0.08,0.006
 poverty,4_region,Hartford Inner Ring,2021,low_income,85435,4182,0.2,0.01
 poverty,4_region,Hartford Outer Ring,2021,poverty_status_determined,335102,3608,NA,NA
 poverty,4_region,Hartford Outer Ring,2021,poverty,21134,1903,0.06,0.006
 poverty,4_region,Hartford Outer Ring,2021,low_income,43869,2584,0.13,0.008
+poverty,4_region,Lower Connecticut River Valley COG,2021,poverty_status_determined,169530,2716,NA,NA
+poverty,4_region,Lower Connecticut River Valley COG,2021,poverty,10649,1050,0.06,0.006
+poverty,4_region,Lower Connecticut River Valley COG,2021,low_income,27294,1911,0.16,0.011
 poverty,4_region,Lower Naugatuck Valley,2021,poverty_status_determined,138235,2991,NA,NA
 poverty,4_region,Lower Naugatuck Valley,2021,poverty,9077,1271,0.07,0.009
 poverty,4_region,Lower Naugatuck Valley,2021,low_income,24948,2296,0.18,0.016
+poverty,4_region,Naugatuck Valley COG,2021,poverty_status_determined,443361,6050,NA,NA
+poverty,4_region,Naugatuck Valley COG,2021,poverty,44074,3159,0.1,0.007
+poverty,4_region,Naugatuck Valley COG,2021,low_income,102274,4727,0.23,0.01
 poverty,4_region,New Haven Inner Ring,2021,poverty_status_determined,135298,3508,NA,NA
 poverty,4_region,New Haven Inner Ring,2021,poverty,13555,1636,0.1,0.012
 poverty,4_region,New Haven Inner Ring,2021,low_income,32115,2563,0.24,0.018
 poverty,4_region,New Haven Outer Ring,2021,poverty_status_determined,185542,2495,NA,NA
 poverty,4_region,New Haven Outer Ring,2021,poverty,7374,964,0.04,0.005
 poverty,4_region,New Haven Outer Ring,2021,low_income,20974,1822,0.11,0.01
+poverty,4_region,North Central DMHAS,2021,poverty_status_determined,985326,8245,NA,NA
+poverty,4_region,North Central DMHAS,2021,poverty,104662,4225,0.11,0.004
+poverty,4_region,North Central DMHAS,2021,low_income,226057,6363,0.23,0.006
+poverty,4_region,Northeastern COG,2021,poverty_status_determined,93918,2156,NA,NA
+poverty,4_region,Northeastern COG,2021,poverty,7607,1019,0.08,0.011
+poverty,4_region,Northeastern COG,2021,low_income,18414,1601,0.2,0.016
+poverty,4_region,Northwest Hills COG,2021,poverty_status_determined,110450,2346,NA,NA
+poverty,4_region,Northwest Hills COG,2021,poverty,9576,1235,0.09,0.011
+poverty,4_region,Northwest Hills COG,2021,low_income,21534,1733,0.19,0.015
 poverty,4_region,Other New Haven County cities,2021,poverty_status_determined,103649,2949,NA,NA
 poverty,4_region,Other New Haven County cities,2021,poverty,10982,1473,0.11,0.014
 poverty,4_region,Other New Haven County cities,2021,low_income,25404,2249,0.25,0.021
+poverty,4_region,South Central COG,2021,poverty_status_determined,549821,6802,NA,NA
+poverty,4_region,South Central COG,2021,poverty,62728,3492,0.11,0.006
+poverty,4_region,South Central COG,2021,low_income,137614,5318,0.25,0.009
+poverty,4_region,South Central DMHAS,2021,poverty_status_determined,797553,7708,NA,NA
+poverty,4_region,South Central DMHAS,2021,poverty,80125,3811,0.1,0.005
+poverty,4_region,South Central DMHAS,2021,low_income,181783,5951,0.23,0.007
+poverty,4_region,Southeastern COG,2021,poverty_status_determined,266522,4543,NA,NA
+poverty,4_region,Southeastern COG,2021,poverty,27119,2089,0.1,0.008
+poverty,4_region,Southeastern COG,2021,low_income,66001,3350,0.25,0.012
+poverty,4_region,Southeastern DMHAS,2021,poverty_status_determined,407466,5283,NA,NA
+poverty,4_region,Southeastern DMHAS,2021,poverty,40617,2482,0.1,0.006
+poverty,4_region,Southeastern DMHAS,2021,low_income,95161,3899,0.23,0.009
+poverty,4_region,Southwestern DMHAS,2021,poverty_status_determined,701365,7492,NA,NA
+poverty,4_region,Southwestern DMHAS,2021,poverty,70876,3645,0.1,0.005
+poverty,4_region,Southwestern DMHAS,2021,low_income,155589,5826,0.22,0.008
+poverty,4_region,Western COG,2021,poverty_status_determined,612195,6707,NA,NA
+poverty,4_region,Western COG,2021,poverty,42742,2776,0.07,0.004
+poverty,4_region,Western COG,2021,low_income,110118,5092,0.18,0.008
+poverty,4_region,Western DMHAS,2021,poverty_status_determined,611984,7012,NA,NA
+poverty,4_region,Western DMHAS,2021,poverty,55196,3461,0.09,0.006
+poverty,4_region,Western DMHAS,2021,low_income,130807,5448,0.21,0.009
 poverty,6_town,Andover,2021,poverty_status_determined,2998,238,NA,NA
 poverty,6_town,Andover,2021,poverty,48,39,0.02,0.013
 poverty,6_town,Andover,2021,low_income,274,139,0.09,0.046
@@ -5333,12 +5697,18 @@ income_children,3_county,Windham County,2021,ages00_17_low_income,7579,910,0.33,
 income_children,4_region,6 wealthiest Fairfield County,2021,ages00_17_poverty_status_determined,34775,1469,NA,NA
 income_children,4_region,6 wealthiest Fairfield County,2021,ages00_17_poverty,886,294,0.03,0.008
 income_children,4_region,6 wealthiest Fairfield County,2021,ages00_17_low_income,2397,625,0.07,0.018
+income_children,4_region,Capitol Region COG,2021,ages00_17_poverty_status_determined,197617,4291,NA,NA
+income_children,4_region,Capitol Region COG,2021,ages00_17_poverty,28076,1808,0.14,0.009
+income_children,4_region,Capitol Region COG,2021,ages00_17_low_income,58807,2585,0.3,0.011
 income_children,4_region,Eastern cities,2021,ages00_17_poverty_status_determined,24271,1574,NA,NA
 income_children,4_region,Eastern cities,2021,ages00_17_poverty,5624,817,0.23,0.03
 income_children,4_region,Eastern cities,2021,ages00_17_low_income,11957,1160,0.49,0.036
 income_children,4_region,Greater Bridgeport,2021,ages00_17_poverty_status_determined,73893,2669,NA,NA
 income_children,4_region,Greater Bridgeport,2021,ages00_17_poverty,14055,1334,0.19,0.017
 income_children,4_region,Greater Bridgeport,2021,ages00_17_low_income,26789,1775,0.36,0.02
+income_children,4_region,Greater Bridgeport COG,2021,ages00_17_poverty_status_determined,73893,2669,NA,NA
+income_children,4_region,Greater Bridgeport COG,2021,ages00_17_poverty,14055,1334,0.19,0.017
+income_children,4_region,Greater Bridgeport COG,2021,ages00_17_low_income,26789,1775,0.36,0.02
 income_children,4_region,Greater Danbury,2021,ages00_17_poverty_status_determined,56254,2281,NA,NA
 income_children,4_region,Greater Danbury,2021,ages00_17_poverty,4387,706,0.08,0.012
 income_children,4_region,Greater Danbury,2021,ages00_17_low_income,13122,1382,0.23,0.023
@@ -5363,27 +5733,63 @@ income_children,4_region,Greater Waterbury,2021,ages00_17_low_income,21130,1742,
 income_children,4_region,Hartford Foundation,2021,ages00_17_poverty_status_determined,156179,3772,NA,NA
 income_children,4_region,Hartford Foundation,2021,ages00_17_poverty,21094,1591,0.14,0.01
 income_children,4_region,Hartford Foundation,2021,ages00_17_low_income,43504,2219,0.28,0.013
-income_children,4_region,Hartford Foundation other towns,2021,ages00_17_poverty_status_determined,100378,2938,NA,NA
-income_children,4_region,Hartford Foundation other towns,2021,ages00_17_poverty,6473,959,0.06,0.009
-income_children,4_region,Hartford Foundation other towns,2021,ages00_17_low_income,13584,1290,0.14,0.012
+income_children,4_region,Hartford Foundation other towns,2021,ages00_17_poverty_status_determined,128292,3425,NA,NA
+income_children,4_region,Hartford Foundation other towns,2021,ages00_17_poverty,10613,1201,0.08,0.009
+income_children,4_region,Hartford Foundation other towns,2021,ages00_17_low_income,25043,1795,0.2,0.013
 income_children,4_region,Hartford Inner Ring,2021,ages00_17_poverty_status_determined,82294,2809,NA,NA
 income_children,4_region,Hartford Inner Ring,2021,ages00_17_poverty,8371,1044,0.1,0.012
 income_children,4_region,Hartford Inner Ring,2021,ages00_17_low_income,21403,1638,0.26,0.018
 income_children,4_region,Hartford Outer Ring,2021,ages00_17_poverty_status_determined,70129,2445,NA,NA
 income_children,4_region,Hartford Outer Ring,2021,ages00_17_poverty,4154,745,0.06,0.01
 income_children,4_region,Hartford Outer Ring,2021,ages00_17_low_income,8631,1010,0.12,0.014
+income_children,4_region,Lower Connecticut River Valley COG,2021,ages00_17_poverty_status_determined,30530,1611,NA,NA
+income_children,4_region,Lower Connecticut River Valley COG,2021,ages00_17_poverty,1976,433,0.06,0.014
+income_children,4_region,Lower Connecticut River Valley COG,2021,ages00_17_low_income,5518,781,0.18,0.024
 income_children,4_region,Lower Naugatuck Valley,2021,ages00_17_poverty_status_determined,26056,1778,NA,NA
 income_children,4_region,Lower Naugatuck Valley,2021,ages00_17_poverty,2060,557,0.08,0.021
 income_children,4_region,Lower Naugatuck Valley,2021,ages00_17_low_income,6026,918,0.23,0.031
+income_children,4_region,Naugatuck Valley COG,2021,ages00_17_poverty_status_determined,90578,3195,NA,NA
+income_children,4_region,Naugatuck Valley COG,2021,ages00_17_poverty,13104,1383,0.14,0.014
+income_children,4_region,Naugatuck Valley COG,2021,ages00_17_low_income,28369,2015,0.31,0.019
 income_children,4_region,New Haven Inner Ring,2021,ages00_17_poverty_status_determined,27223,1819,NA,NA
 income_children,4_region,New Haven Inner Ring,2021,ages00_17_poverty,3294,671,0.12,0.023
 income_children,4_region,New Haven Inner Ring,2021,ages00_17_low_income,8572,1039,0.31,0.032
 income_children,4_region,New Haven Outer Ring,2021,ages00_17_poverty_status_determined,35102,1703,NA,NA
 income_children,4_region,New Haven Outer Ring,2021,ages00_17_poverty,1175,358,0.03,0.01
 income_children,4_region,New Haven Outer Ring,2021,ages00_17_low_income,3554,612,0.1,0.017
+income_children,4_region,North Central DMHAS,2021,ages00_17_poverty_status_determined,208415,4424,NA,NA
+income_children,4_region,North Central DMHAS,2021,ages00_17_poverty,29642,1891,0.14,0.009
+income_children,4_region,North Central DMHAS,2021,ages00_17_low_income,62842,2694,0.3,0.011
+income_children,4_region,Northeastern COG,2021,ages00_17_poverty_status_determined,18808,1305,NA,NA
+income_children,4_region,Northeastern COG,2021,ages00_17_poverty,1882,482,0.1,0.025
+income_children,4_region,Northeastern COG,2021,ages00_17_low_income,4724,729,0.25,0.035
+income_children,4_region,Northwest Hills COG,2021,ages00_17_poverty_status_determined,20043,1210,NA,NA
+income_children,4_region,Northwest Hills COG,2021,ages00_17_poverty,2054,416,0.1,0.02
+income_children,4_region,Northwest Hills COG,2021,ages00_17_low_income,4775,642,0.24,0.029
 income_children,4_region,Other New Haven County cities,2021,ages00_17_poverty_status_determined,19935,1500,NA,NA
 income_children,4_region,Other New Haven County cities,2021,ages00_17_poverty,3213,660,0.16,0.031
 income_children,4_region,Other New Haven County cities,2021,ages00_17_low_income,7422,1045,0.37,0.044
+income_children,4_region,South Central COG,2021,ages00_17_poverty_status_determined,111722,3482,NA,NA
+income_children,4_region,South Central COG,2021,ages00_17_poverty,16931,1554,0.15,0.013
+income_children,4_region,South Central COG,2021,ages00_17_low_income,37466,2238,0.34,0.017
+income_children,4_region,South Central DMHAS,2021,ages00_17_poverty_status_determined,156505,4042,NA,NA
+income_children,4_region,South Central DMHAS,2021,ages00_17_poverty,20453,1686,0.13,0.01
+income_children,4_region,South Central DMHAS,2021,ages00_17_low_income,47069,2481,0.3,0.014
+income_children,4_region,Southeastern COG,2021,ages00_17_poverty_status_determined,54268,2303,NA,NA
+income_children,4_region,Southeastern COG,2021,ages00_17_poverty,8202,993,0.15,0.017
+income_children,4_region,Southeastern COG,2021,ages00_17_low_income,18364,1437,0.34,0.022
+income_children,4_region,Southeastern DMHAS,2021,ages00_17_poverty_status_determined,81068,2767,NA,NA
+income_children,4_region,Southeastern DMHAS,2021,ages00_17_poverty,10621,1125,0.13,0.013
+income_children,4_region,Southeastern DMHAS,2021,ages00_17_low_income,24314,1650,0.3,0.018
+income_children,4_region,Southwestern DMHAS,2021,ages00_17_poverty_status_determined,162110,3757,NA,NA
+income_children,4_region,Southwestern DMHAS,2021,ages00_17_poverty,21434,1619,0.13,0.01
+income_children,4_region,Southwestern DMHAS,2021,ages00_17_low_income,45588,2334,0.28,0.013
+income_children,4_region,Western COG,2021,ages00_17_poverty_status_determined,138202,3429,NA,NA
+income_children,4_region,Western COG,2021,ages00_17_poverty,11581,1153,0.08,0.008
+income_children,4_region,Western COG,2021,ages00_17_low_income,31216,2024,0.23,0.014
+income_children,4_region,Western DMHAS,2021,ages00_17_poverty_status_determined,127563,3606,NA,NA
+income_children,4_region,Western DMHAS,2021,ages00_17_poverty,15711,1405,0.12,0.01
+income_children,4_region,Western DMHAS,2021,ages00_17_low_income,36215,2245,0.28,0.016
 income_children,6_town,Andover,2021,ages00_17_poverty_status_determined,490,168,NA,NA
 income_children,6_town,Andover,2021,ages00_17_poverty,0,13,0,0.027
 income_children,6_town,Andover,2021,ages00_17_low_income,74,75,0.15,0.144
@@ -5924,12 +6330,18 @@ income_seniors,3_county,Windham County,2021,ages65plus_low_income,4517,524,0.24,
 income_seniors,4_region,6 wealthiest Fairfield County,2021,ages65plus_poverty_status_determined,19283,1162,NA,NA
 income_seniors,4_region,6 wealthiest Fairfield County,2021,ages65plus_poverty,812,234,0.04,0.012
 income_seniors,4_region,6 wealthiest Fairfield County,2021,ages65plus_low_income,2039,375,0.11,0.018
+income_seniors,4_region,Capitol Region COG,2021,ages65plus_poverty_status_determined,159412,3353,NA,NA
+income_seniors,4_region,Capitol Region COG,2021,ages65plus_poverty,14053,995,0.09,0.006
+income_seniors,4_region,Capitol Region COG,2021,ages65plus_low_income,36465,1630,0.23,0.009
 income_seniors,4_region,Eastern cities,2021,ages65plus_poverty_status_determined,19494,1224,NA,NA
 income_seniors,4_region,Eastern cities,2021,ages65plus_poverty,1767,317,0.09,0.015
 income_seniors,4_region,Eastern cities,2021,ages65plus_low_income,5441,598,0.28,0.025
 income_seniors,4_region,Greater Bridgeport,2021,ages65plus_poverty_status_determined,47209,1819,NA,NA
 income_seniors,4_region,Greater Bridgeport,2021,ages65plus_poverty,4723,589,0.1,0.012
 income_seniors,4_region,Greater Bridgeport,2021,ages65plus_low_income,11673,904,0.25,0.017
+income_seniors,4_region,Greater Bridgeport COG,2021,ages65plus_poverty_status_determined,47209,1819,NA,NA
+income_seniors,4_region,Greater Bridgeport COG,2021,ages65plus_poverty,4723,589,0.1,0.012
+income_seniors,4_region,Greater Bridgeport COG,2021,ages65plus_low_income,11673,904,0.25,0.017
 income_seniors,4_region,Greater Danbury,2021,ages65plus_poverty_status_determined,47625,1933,NA,NA
 income_seniors,4_region,Greater Danbury,2021,ages65plus_poverty,3073,512,0.06,0.01
 income_seniors,4_region,Greater Danbury,2021,ages65plus_low_income,8121,805,0.17,0.015
@@ -5954,27 +6366,63 @@ income_seniors,4_region,Greater Waterbury,2021,ages65plus_low_income,12769,1034,
 income_seniors,4_region,Hartford Foundation,2021,ages65plus_poverty_status_determined,124583,2888,NA,NA
 income_seniors,4_region,Hartford Foundation,2021,ages65plus_poverty,11506,913,0.09,0.007
 income_seniors,4_region,Hartford Foundation,2021,ages65plus_low_income,28261,1422,0.23,0.01
-income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_poverty_status_determined,91179,2490,NA,NA
-income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_poverty,5552,576,0.06,0.006
-income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_low_income,15934,1051,0.17,0.01
+income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_poverty_status_determined,111001,2721,NA,NA
+income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_poverty,7930,729,0.07,0.006
+income_seniors,4_region,Hartford Foundation other towns,2021,ages65plus_low_income,21559,1237,0.19,0.01
 income_seniors,4_region,Hartford Inner Ring,2021,ages65plus_poverty_status_determined,74295,2298,NA,NA
 income_seniors,4_region,Hartford Inner Ring,2021,ages65plus_poverty,6252,653,0.08,0.008
 income_seniors,4_region,Hartford Inner Ring,2021,ages65plus_low_income,16573,1097,0.22,0.013
 income_seniors,4_region,Hartford Outer Ring,2021,ages65plus_poverty_status_determined,62130,2087,NA,NA
 income_seniors,4_region,Hartford Outer Ring,2021,ages65plus_poverty,3163,467,0.05,0.007
 income_seniors,4_region,Hartford Outer Ring,2021,ages65plus_low_income,9854,843,0.16,0.012
+income_seniors,4_region,Lower Connecticut River Valley COG,2021,ages65plus_poverty_status_determined,34967,1521,NA,NA
+income_seniors,4_region,Lower Connecticut River Valley COG,2021,ages65plus_poverty,2088,407,0.06,0.011
+income_seniors,4_region,Lower Connecticut River Valley COG,2021,ages65plus_low_income,6283,686,0.18,0.018
 income_seniors,4_region,Lower Naugatuck Valley,2021,ages65plus_poverty_status_determined,25304,1550,NA,NA
 income_seniors,4_region,Lower Naugatuck Valley,2021,ages65plus_poverty,1871,448,0.07,0.017
 income_seniors,4_region,Lower Naugatuck Valley,2021,ages65plus_low_income,5246,724,0.21,0.026
+income_seniors,4_region,Naugatuck Valley COG,2021,ages65plus_poverty_status_determined,80511,2635,NA,NA
+income_seniors,4_region,Naugatuck Valley COG,2021,ages65plus_poverty,5865,690,0.07,0.008
+income_seniors,4_region,Naugatuck Valley COG,2021,ages65plus_low_income,17706,1236,0.22,0.014
 income_seniors,4_region,New Haven Inner Ring,2021,ages65plus_poverty_status_determined,22225,1257,NA,NA
 income_seniors,4_region,New Haven Inner Ring,2021,ages65plus_poverty,1453,280,0.07,0.012
 income_seniors,4_region,New Haven Inner Ring,2021,ages65plus_low_income,4551,595,0.2,0.024
 income_seniors,4_region,New Haven Outer Ring,2021,ages65plus_poverty_status_determined,40790,1739,NA,NA
 income_seniors,4_region,New Haven Outer Ring,2021,ages65plus_poverty,1797,339,0.04,0.008
 income_seniors,4_region,New Haven Outer Ring,2021,ages65plus_low_income,5883,755,0.14,0.017
+income_seniors,4_region,North Central DMHAS,2021,ages65plus_poverty_status_determined,165664,3385,NA,NA
+income_seniors,4_region,North Central DMHAS,2021,ages65plus_poverty,14570,999,0.09,0.006
+income_seniors,4_region,North Central DMHAS,2021,ages65plus_low_income,38042,1643,0.23,0.009
+income_seniors,4_region,Northeastern COG,2021,ages65plus_poverty_status_determined,16152,1041,NA,NA
+income_seniors,4_region,Northeastern COG,2021,ages65plus_poverty,1175,288,0.07,0.017
+income_seniors,4_region,Northeastern COG,2021,ages65plus_low_income,3731,488,0.23,0.026
+income_seniors,4_region,Northwest Hills COG,2021,ages65plus_poverty_status_determined,24115,1245,NA,NA
+income_seniors,4_region,Northwest Hills COG,2021,ages65plus_poverty,1404,294,0.06,0.012
+income_seniors,4_region,Northwest Hills COG,2021,ages65plus_low_income,4268,505,0.18,0.019
 income_seniors,4_region,Other New Haven County cities,2021,ages65plus_poverty_status_determined,17358,1119,NA,NA
 income_seniors,4_region,Other New Haven County cities,2021,ages65plus_poverty,1605,338,0.09,0.019
 income_seniors,4_region,Other New Haven County cities,2021,ages65plus_low_income,4562,596,0.26,0.03
+income_seniors,4_region,South Central COG,2021,ages65plus_poverty_status_determined,93990,2622,NA,NA
+income_seniors,4_region,South Central COG,2021,ages65plus_poverty,7218,687,0.08,0.007
+income_seniors,4_region,South Central COG,2021,ages65plus_low_income,21024,1342,0.22,0.013
+income_seniors,4_region,South Central DMHAS,2021,ages65plus_poverty_status_determined,143526,3261,NA,NA
+income_seniors,4_region,South Central DMHAS,2021,ages65plus_poverty,10703,897,0.07,0.006
+income_seniors,4_region,South Central DMHAS,2021,ages65plus_low_income,30910,1632,0.22,0.01
+income_seniors,4_region,Southeastern COG,2021,ages65plus_poverty_status_determined,47993,1826,NA,NA
+income_seniors,4_region,Southeastern COG,2021,ages65plus_poverty,2949,398,0.06,0.008
+income_seniors,4_region,Southeastern COG,2021,ages65plus_low_income,10332,867,0.22,0.016
+income_seniors,4_region,Southeastern DMHAS,2021,ages65plus_poverty_status_determined,73247,2255,NA,NA
+income_seniors,4_region,Southeastern DMHAS,2021,ages65plus_poverty,4591,527,0.06,0.007
+income_seniors,4_region,Southeastern DMHAS,2021,ages65plus_low_income,15585,1049,0.21,0.013
+income_seniors,4_region,Southwestern DMHAS,2021,ages65plus_poverty_status_determined,106255,2765,NA,NA
+income_seniors,4_region,Southwestern DMHAS,2021,ages65plus_poverty,8747,805,0.08,0.007
+income_seniors,4_region,Southwestern DMHAS,2021,ages65plus_low_income,22080,1340,0.21,0.011
+income_seniors,4_region,Western COG,2021,ages65plus_poverty_status_determined,96654,2709,NA,NA
+income_seniors,4_region,Western COG,2021,ages65plus_poverty,6449,722,0.07,0.007
+income_seniors,4_region,Western COG,2021,ages65plus_low_income,16782,1229,0.17,0.012
+income_seniors,4_region,Western DMHAS,2021,ages65plus_poverty_status_determined,112311,3026,NA,NA
+income_seniors,4_region,Western DMHAS,2021,ages65plus_poverty,7313,757,0.07,0.007
+income_seniors,4_region,Western DMHAS,2021,ages65plus_low_income,21647,1329,0.19,0.011
 income_seniors,6_town,Andover,2021,ages65plus_poverty_status_determined,603,187,NA,NA
 income_seniors,6_town,Andover,2021,ages65plus_poverty,0,13,0,0.022
 income_seniors,6_town,Andover,2021,ages65plus_low_income,50,51,0.08,0.081

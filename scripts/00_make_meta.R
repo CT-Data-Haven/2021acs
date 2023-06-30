@@ -74,7 +74,7 @@ saveRDS(meta, file.path("utils", str_glue("{yr}_website_meta.rds")))
 
 ######################################## DOWNLOADS #############################----
 # get from town equity repo: reg_puma_list
-town_meta <- gh::gh("/repos/{owner}/{repo}/releases/latest", owner = "CT-Data-Haven", repo = "towns2020") %>%
+town_meta <- gh::gh("/repos/{owner}/{repo}/releases/tags/metadata", owner = "CT-Data-Haven", repo = "towns2023") %>%
   pluck("assets") %>%
   map(~.[c("url", "name")]) %>%
   rlang::set_names(purrr::map_chr(., "name"))
