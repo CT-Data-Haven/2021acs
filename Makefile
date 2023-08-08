@@ -51,6 +51,14 @@ scripts/05_assemble_for_distro.R: utils/$(YR)_website_meta.rds \
 	output_data/cws_basic_indicators_$(CWS_YR).rds \
 	utils/indicator_headings.txt
 
+#### RELEASE ----
+.PHONY: release
+release: utils/upload_gh_release.sh
+
+utils/upload_gh_release.sh: output_data/acs_town_basic_profile_$(YR).rds
+	bash $@
+
+#### CLEANUP ----
 .PHONY: clean
 clean:
 	rm -f output_data/* to_distro/* fetch_data/* website/* utils/*.rds
