@@ -55,7 +55,7 @@ scripts/05_assemble_for_distro.R: utils/$(YR)_website_meta.rds \
 .PHONY: release
 release: utils/upload_gh_release.sh
 
-utils/upload_gh_release.sh: output_data/acs_town_basic_profile_$(YR).rds
+utils/upload_gh_release.sh:
 	bash $@
 
 #### CLEANUP ----

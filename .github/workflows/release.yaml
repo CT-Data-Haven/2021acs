@@ -15,4 +15,4 @@ jobs:
       
       - name: create release
         run: |
-          make release
+          make --always-make release
