@@ -9,6 +9,8 @@ name: make release
 jobs:
   release:
     runs-on: ubuntu-latest
+    env:
+      GH_TOKEN: ${{ github.token }}
     steps:
       - name: checkout
         uses: actions/checkout@v3
